@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+body {
+  font-family: 'Padauk', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+button {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* navbar */
+#nav {
+    display: grid;
+    align-items: center;
+    box-shadow: 0px 15px 10px -12px #111;
+    margin: 0;
+    background-color: white;
+    letter-spacing: 4px;
+}
+  
+#nav-items {
+    display: flex;
+    width: 90%;
+    max-width: 620px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+} 
+  
+nav .format-tab {
+    display: inline;
+    margin: 0 20px;
+} 
+
+.nav-btn {
+  outline: none;
+  border: none;
+  overflow: hidden;
+  letter-spacing: 4px;
+}
+  
+nav #color-format {
+    text-align: right;
+}
+
+/* main content */
+  
+#main {
+  font-family: 'Roboto', sans-serif;
+    display: grid;
+    margin-top: 15rem;
+    place-content: center;
+}
+
+#head-text {
+  font-size: 40px;
+  padding: 15px 40px;
+  background-color: black;
+  color: rgb(38, 88, 90);
+  border-radius: 20px 5px;
+}
+
+  
+.button-color{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(241, 241, 240);
+    outline: none;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 2px 10px;
+}
+
