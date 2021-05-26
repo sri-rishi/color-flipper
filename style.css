@@ -75,5 +75,21 @@ nav #color-format {
     padding: 5px 25px;
     border: none;
     border-radius: 2px 10px;
+} 
+
+@media (max-width: 491px) {
+
+}
+
+
+@media (max-width: 402px) {
+  #head-text {
+    font-size: 30px;
+  }
+
+  .nav-btn {
+    letter-spacing: 0;
+  }
+
 }
 
